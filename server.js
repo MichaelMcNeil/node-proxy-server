@@ -7,6 +7,7 @@ var http = require('http'),
 var options = {
   hostnameOnly: true,
   router: {
+    'www.mcmcneil.com': '127.0.0.1:3000',
     'mcmcneil.com': '127.0.0.1:3000',
     'blog.mcmcneil.com': '127.0.0.1:3000',
     'node-databucket.mcmcneil.com': '127.0.0.1:3001'
