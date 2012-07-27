@@ -17,4 +17,4 @@ var options = {
 //
 // ...and then pass them in when you create your proxy.
 //
-var proxyServer = httpProxy.createServer(options).listen(80);
+var proxyServer = httpProxy.createServer(options).listen(8080);
